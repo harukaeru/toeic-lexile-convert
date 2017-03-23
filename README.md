@@ -62,6 +62,7 @@ TOEIC満点だと、だいたいネイティブの小4レベルだというこ�
 ちなみに、高校生のTOEICのリーディングスコア平均は200未満だったので省略しています。
 
 (※参考 https://www.amazon.co.jp/%E8%8B%B1%E8%AA%9E-%E5%A4%9A%E8%AA%AD-lexile-%E6%B4%8B%E6%9B%B8/b?ie=UTF8&node=2480862051)
+
 (※参考 http://www.iibc-global.org/library/default/toeic/official_data/lr/pdf/DAA.pdf)
 
 それにしてもTOEIC Readingスコア0の人がこの600Lのやつを読めるとはおもえない(´・ω・｀)
