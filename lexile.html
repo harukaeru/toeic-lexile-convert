@@ -1,0 +1,134 @@
+<html>
+<script
+  src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+<select id="graphlexile">
+    <option value="-1">TOEIC®リーディングスコア</option>
+    <option value="509">0</option>
+    <option value="509">5</option>
+    <option value="509">10</option>
+    <option value="509">15</option>
+    <option value="509">20</option>
+    <option value="509">25</option>
+    <option value="509">30</option>
+    <option value="509">35</option>
+    <option value="509">40</option>
+    <option value="509">45</option>
+    <option value="509">50</option>
+    <option value="509">55</option>
+    <option value="510">60</option>
+    <option value="520">65</option>
+    <option value="530">70</option>
+    <option value="535">75</option>
+    <option value="545">80</option>
+    <option value="555">85</option>
+    <option value="565">90</option>
+    <option value="570">95</option>
+    <option value="580">100</option>
+    <option value="595">105</option>
+    <option value="610">110</option>
+    <option value="625">115</option>
+    <option value="640">120</option>
+    <option value="650">125</option>
+    <option value="660">130</option>
+    <option value="670">135</option>
+    <option value="685">140</option>
+    <option value="695">145</option>
+    <option value="710">150</option>
+    <option value="720">155</option>
+    <option value="730">160</option>
+    <option value="735">165</option>
+    <option value="745">170</option>
+    <option value="755">175</option>
+    <option value="765">180</option>
+    <option value="770">185</option>
+    <option value="780">190</option>
+    <option value="785">195</option>
+    <option value="790">200</option>
+    <option value="800">205</option>
+    <option value="805">210</option>
+    <option value="815">215</option>
+    <option value="825">220</option>
+    <option value="835">225</option>
+    <option value="840">230</option>
+    <option value="850">235</option>
+    <option value="860">240</option>
+    <option value="865">245</option>
+    <option value="875">250</option>
+    <option value="885">255</option>
+    <option value="895">260</option>
+    <option value="900">265</option>
+    <option value="905">270</option>
+    <option value="915">275</option>
+    <option value="925">280</option>
+    <option value="935">285</option>
+    <option value="940">290</option>
+    <option value="945">295</option>
+    <option value="955">300</option>
+    <option value="960">305</option>
+    <option value="970">310</option>
+    <option value="980">315</option>
+    <option value="985">320</option>
+    <option value="995">325</option>
+    <option value="1005">330</option>
+    <option value="1010">335</option>
+    <option value="1020">340</option>
+    <option value="1025">345</option>
+    <option value="1035">350</option>
+    <option value="1040">355</option>
+    <option value="1045">360</option>
+    <option value="1055">365</option>
+    <option value="1065">370</option>
+    <option value="1075">375</option>
+    <option value="1085">380</option>
+    <option value="1095">385</option>
+    <option value="1110">390</option>
+    <option value="1125">395</option>
+    <option value="1140">400</option>
+    <option value="1155">405</option>
+    <option value="1170">410</option>
+    <option value="1190">415</option>
+    <option value="1205">420</option>
+    <option value="1215">425</option>
+    <option value="1230">430</option>
+    <option value="1245">435</option>
+    <option value="1260">440</option>
+    <option value="1275">445</option>
+    <option value="1280">450</option>
+    <option value="1290">455</option>
+    <option value="1305">460</option>
+    <option value="1320">465</option>
+    <option value="1330">470</option>
+    <option value="1340">475</option>
+    <option value="1350">480</option>
+    <option value="1360">485</option>
+    <option value="1380">490</option>
+    <option value="1400">495</option>
+</select>
+<div style="bottom: 10px; padding-top:30px; font-size: 2em">
+    <p style="margin-top:10px">
+    <strong> Lexile 指数:</strong>
+    </p>
+    <p style="margin-top:10px">
+    <span style="font-weight: bold; font-size:2.2em; color:#004d8e" id="lexile_measure">0L</span>
+    </p>
+    <p style="margin-top:10px">
+    <strong>あなたに適した文章のレベル:</strong>
+    </p>
+    <p style="margin-top:10px">
+    <span style="color:#004d8e" id="lower_lexile">0L</span> - <span style="color:#004d8e;" id="upper_lexile">0L</span>
+    </p>
+</div>
+</div>
+<script>
+    $().ready(function() {
+        $('#graphlexile').bind('change', function() {
+            var lex = Math.max(550, Math.min(this.value, 1600))
+            $('#lexile_measure').html(lex + "L");
+            $('#lower_lexile').html(lex - 100 + "L");
+            $('#upper_lexile').html(lex + 50 + "L");
+        })
+    });
+</script>
+</html>
