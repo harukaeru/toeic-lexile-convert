@@ -33,4 +33,38 @@ https://twitter.com/d24d30033e5c469
 # 所感
 TOEIC公式からもサイトがlexile指数に関するものが消えているので、あまり換算はあてにならないかもしれません。
 
+それから`自分のlexile指数 - 250`のレベルのものは90%、自分のlexile指数と同じ指数のレベルの文章は75%の正確さで理解できるらしいですが、ぶっちゃけ75%の理解って理解したうちに入らないと思います。
+90%でもなんかすごく嫌です。
+
+10%わからないって相当わかってないと思うんですよね。
+
+99%理解したいと考えると、単純計算して自分のlexile指数から400引いたぐらいがいいぐらいですかね。
+
+lexile指数って、どうも線形で表現できているので、単純なモデルなんだと思います。もっといい指数が開発されてほしいですね。
+
+TOEICのリーディングスコアが
+
+200なら200L-295L
+250なら200L-295Lや400L-495L
+300なら400L-495L
+350なら400L-495Lや600L-695L
+400なら600L-695L
+450なら600L-695Lや800L-895L
+495なら800L-895Lや1000L-1095L
+
+だとスラスラ読めて楽しいレベルなんじゃないかなと思います（個人的に）
+
+(※参考 https://www.amazon.co.jp/%E8%8B%B1%E8%AA%9E-%E5%A4%9A%E8%AA%AD-lexile-%E6%B4%8B%E6%9B%B8/b?ie=UTF8&node=2480862051)
+
+それにしてもTOEIC Readingスコア0の人がこの600Lのやつを読めるとはおもえない(´・ω・｀)
+```
+Excuse me! Let's blow out of this place! In real life, germs are very small.
+They can't be seen without a microscope.
+Rudy forgot to use a tissue. His cold germs fly across the room at more than 100 miles an hour.
+Whee! I can fly! Best ride ever! A few germs land on Ernie. But skin acts like a suit of armor.
+It protects against harm. The germs won't find a new home there. Healthy skin keeps germs out.
+But germs can sneak into the body through cuts, scrapes, or cracks in the skin.
+Most germs enter through a person's mouth or nose. Rudy's germs continue to fall on nearly everything in the room - including Brenda's candy.
+```
+
 まあTOEICで点が取れたところでまだ「俺たちの戦いははじまったばかりだ！」的な感じなので、参考程度にということで(´・ω・｀)
