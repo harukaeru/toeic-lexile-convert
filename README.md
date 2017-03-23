@@ -19,8 +19,18 @@ http://wayback.archive.org/web/20150320192025/http://lerg.lexile.com/ja
 
 ソースが汚くて改変したくなったが、めんどくさかったし、我慢してそのまま使用している(´・ω・｀)
 
+換算が信用できない方はこちらもご覧ください。
+
+http://wayback.archive.org/web/20140820120644/http://square.toeic.or.jp/kyouzai/lexile/about/
+
+
 動作しない場合は
 
 https://twitter.com/d24d30033e5c469
 
 までリプライかなにかをください
+
+# 所感
+TOEIC公式からもサイトがlexile指数に関するものが消えているので、あまり換算はあてにならないかもしれません。
+
+まあTOEICで点が取れたところでまだ「俺たちの戦いははじまったばかりだ！」的な感じなので、参考程度にということで(´・ω・｀)
